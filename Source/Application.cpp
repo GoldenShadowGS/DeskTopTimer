@@ -95,7 +95,7 @@ void Application::Update()
 		ID2D1DeviceContext* dc = m_Renderer.GetDeviceContext();
 		dc->BeginDraw();
 
-		D2D1::ColorF backGroundColor = AlarmLoopIntervalID ? D2D1::ColorF(0.3f, 0.3f, 0.86f, 1.0f) : D2D1::ColorF(0.8f, 0.8f, 0.8f, 1.0f);
+		D2D1::ColorF backGroundColor = D2D1::ColorF(0.8f, 0.8f, 0.8f, 1.0f);
 
 		dc->Clear(backGroundColor);
 		dc->SetTransform(D2D1::Matrix3x2F::Identity());
