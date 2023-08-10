@@ -1,0 +1,11 @@
+#include "Resource.h"
+
+IDI_STOPWATCHICON           ICON                    "resources/icon.ico"
+
+IDI_SMALLICON               ICON                    "resources/small.ico"
+
+SOUND_ALARM               WAVDATA                   "Resources/alarm.wav"
+SOUND_START               WAVDATA                   "Resources/goclick.wav"
+SOUND_STOP                WAVDATA                   "Resources/stopclick.wav"
+SOUND_CLICK               WAVDATA                   "Resources/click.wav"
+SOUND_SMALLCLICK          WAVDATA                   "Resources/smallclick.wav"
